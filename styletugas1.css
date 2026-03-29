@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1f5e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 16px;
+}
+
+.card {
+  background-color: #252a6e;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 580px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.profile-najwa-nur-alya {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.bio {
+  color: #c0c4e8;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 18px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  opacity: 0.85;
+  transform: scale(1.02);
+}
+
+.btn-blue {
+  background-color: #5865f2;
+}
+
+.btn-red {
+  background-color: #e84545;
+}
+
+.video-title {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.video-wrapper {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+.footer-text {
+  color: #c0c4e8;
+  font-size: 0.9rem;
+  text-align: center;
+}
